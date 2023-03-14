@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+// importo il mio Controller
+
+use App\Http\Controllers\Admin\MainController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +17,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [MainController::class, 'index']);

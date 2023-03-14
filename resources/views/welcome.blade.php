@@ -9,6 +9,6 @@
         <title>Laravel Migration Seeder</title>
     </head>
     <body>
-        
+        <h1 class="text-center">Laravel Migration Seeder</h1>
     </body>
 </html>
