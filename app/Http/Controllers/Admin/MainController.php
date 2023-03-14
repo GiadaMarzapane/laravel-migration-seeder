@@ -12,6 +12,6 @@ class MainController extends Controller
 {
     public function index () {
         $trains= Train::all();
-        return view('welcome', compact($trains));
+        return view('welcome', compact('trains'));
 }
 }
